@@ -18,13 +18,35 @@
         <nav>
             <ul>
                 <li><a href="index.html">Home</a></li>
-                <li><a href="about.html">About</a></li>
+                <li><a href="add_course.html">Add A Course</a></li>
                 <li><a href="courses.html">Your Courses</a></li>
             </ul>
         </nav>
     </div>
 
 
-    <p>This site is meant for students and teachers alike to view courses for this college as well as register for courses.</p>
+    <h1>Add a Course</h1>
+    <form>
+        <div>
+            <label for="name">Name:</label>
+            <input type="text" id-"name">
+        </div>
+        <div>
+            <label for="subjectArea">Subject:</label>
+            <input type="text" id-"subjectArea">
+        </div>
+        <div>
+            <label for="creditHours">Credit Hours:</label>
+            <input type="number" min="1" max="6" id-"creditHours">
+        </div>
+        <div>
+            <label for="description">Course Description:</label>
+            <input type=""text" id-"description">
+        </div>
+        <div>
+           <input type="button" id="addBtn" value="Add"
+        </div>
+        <div id="error"></div>
+    </form>
 </body>
 </html>
