@@ -7,7 +7,7 @@
         <title>Final Project :: About</title>
         <link rel="stylesheet" type="text/css" href="FinalCSS.css">
         <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
-
+        <script src="scripts/add_course.js"></script>
     </head>
 <body>
     <header>
@@ -18,8 +18,9 @@
         <nav>
             <ul>
                 <li><a href="index.html">Home</a></li>
-                <li><a href="add_course.html">Add A Course</a></li>
+                <li><a href="add_course.html">Add a Course</a></li>
                 <li><a href="courses.html">Your Courses</a></li>
+                <li><a href="delete.html">Delete a Course</a></li>
             </ul>
         </nav>
     </div>
@@ -29,19 +30,19 @@
     <form>
         <div>
             <label for="name">Name:</label>
-            <input type="text" id-"name">
+            <input type="text" id="name">
         </div>
         <div>
             <label for="subjectArea">Subject:</label>
-            <input type="text" id-"subjectArea">
+            <input type="text" id="subjectArea">
         </div>
         <div>
             <label for="creditHours">Credit Hours:</label>
-            <input type="number" min="1" max="6" id-"creditHours">
+            <input type="number" min="1" max="6" id="creditHours">
         </div>
         <div>
             <label for="description">Course Description:</label>
-            <input type=""text" id-"description">
+            <input type="text" id="description">
         </div>
         <div>
            <input type="button" id="addBtn" value="Add"

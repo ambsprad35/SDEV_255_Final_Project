@@ -8,7 +8,7 @@ async function addCourse(){
         name: document.querySelector("#name").value,
         subjectArea: document.querySelector("#subjectArea").value,
         creditHours: document.querySelector("#creditHours").value,
-        description: document.querySelector("#description").value
+        courseDesc: document.querySelector("#description").value
     }
 
     const response = await fetch("http://localhost:3000/api/courses", {
